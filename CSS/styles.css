@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+}
+
+/*header*/
+    
+
+
+.imagen-pizza{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;   
+    height: 100px; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.pizza{
+    color: white;
+    padding-left: 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+.pizza-span{
+    color: #39b24a;
+}
+
+.front-span{
+    color: #fc200c;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f3f3f3;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*main*/
+
+main{
+    margin:25px;
+}
+
+.section-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moto{
+    background-image: url(/img/delivery.png);
+    height: 350px;
+    width: 490px;
+}
+
+.envio{
+    color: #fc200c;
+    padding: 25px;
+}
+
+.envio span{
+    color: #fff;
+}
+
+.podio{
+    display: flex;
+    width: 490px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.podio-pizzas{
+    justify-self: flex-end;
+    align-self: flex-start;
+    color: #fc200c;
+    padding: 20px;
+    margin-left: 27%;
+}
+.top-5{
+    align-self: flex-start;
+    position: absolute;
+    left: 15%;
+    top: 27%;
+    font-weight: bold;
+}
+
+.div-imagen{
+    position: absolute;
+    left: 145%;
+    bottom: 1%;
+}
+
+/*footer*/
+
+.imagen-pizza-2{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.ul-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #f3f3f3;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logo-2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
